@@ -1,6 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/countries/:match*", "destination": "/" },
-    { "source": "/(.*)", "destination": "/" }
-  ]
-}

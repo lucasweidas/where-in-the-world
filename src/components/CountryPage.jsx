@@ -63,7 +63,7 @@ function CountryContent({ country, borders }) {
             <h3 className="flex-shrink-0 text-[18px] font-semibold lg:text-base">Border Countries:</h3>
             <div className="flex flex-wrap gap-3 md:max-lg:gap-4">
               {borders.map(({ name, cca2 }) => (
-                <Link className="rounded-md bg-white px-6 py-2 shadow-3xl dark:bg-blue-950 md:px-8" key={name.common} to={`/countries/${cca2.toLowerCase()}`}>
+                <Link className="rounded-md bg-white px-6 py-2 shadow-3xl dark:bg-blue-950 md:px-8" key={name.common} to={`/${cca2.toLowerCase()}`}>
                   {name.common}
                 </Link>
               ))}
