@@ -10,7 +10,7 @@ export default function CountryCard({ country }) {
       <img className="w-full" src={flags.svg} alt={flags.alt ?? name.common} />
       <div className="px-6 pt-6 pb-10">
         <h2 className="mb-4 text-xl font-extrabold md:max-lg:text-2xl">
-          <Link to={`/countries/${cca2.toLowerCase()}`}>{name.common}</Link>
+          <Link to={`/${cca2.toLowerCase()}`}>{name.common}</Link>
         </h2>
         <div className="flex flex-col gap-2">
           <InfoWrapper label="Population" data={formatPopulation(country)} />
