@@ -30,14 +30,13 @@ This is a solution to the [Where in the world challenge on Frontend Mentor](http
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- CSS Grid
-- CSS Flex
 - Mobile-first workflow
-- Pure JS
-- SASS-SCSS
 - Vite
+- React
+- React Router
+- SWR
+- Tailwind CSS
+- Framer Motion
 
 ## Author
 
