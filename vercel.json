@@ -1,7 +1,3 @@
 {
-  "rewrites": [
-    { "source": "/", "destination": "/" },
-    { "source": "/countries", "destination": "/" },
-    { "source": "/countries/", "destination": "/" }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
