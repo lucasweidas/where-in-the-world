@@ -1,7 +1,7 @@
 {
-  "routes": [
-    { "src": "/", "dest": "/" },
-    { "src": "/countries", "dest": "/" },
-    { "src": "/countries/", "dest": "/" }
+  "rewrites": [
+    { "source": "/", "destination": "/" },
+    { "source": "/countries", "destination": "/" },
+    { "source": "/countries/", "destination": "/" }
   ]
 }
