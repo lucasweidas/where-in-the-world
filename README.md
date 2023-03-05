@@ -1,4 +1,4 @@
-# Frontend Mentor - REST Countries API with color theme switcher solution
+# Frontend Mentor - Where in the world solution
 
 ## Welcome! 👋
 
@@ -15,16 +15,16 @@ Thanks for checking out this front-end coding challenge solution.
 
 ## Overview
 
-This is a solution to the [REST Countries API with color theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Where in the world challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ### Preview Screenshot
 
-![Preview for the REST Countries API with color theme switcher](./preview/desktop-preview.png)
+![Preview for the Where in the world](./preview/desktop-preview.png)
 
 ### Links
 
-- Solution URL: [github.com/lucasweidas/](https://github.com/lucasweidas/)
-- Live Site URL: [lucasweidas.github.io//](https://lucasweidas.github.io//)
+- Solution URL: [github.com/lucasweidas/where-in-the-world](https://github.com/lucasweidas/where-in-the-world)
+- Live Site URL: [where-in-the-world.vercel](https://where-in-the-world-rho.vercel.app/)
 
 ## My process
 
