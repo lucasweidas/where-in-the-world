@@ -12,8 +12,8 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Root />} errorElement={<Error />}>
       <Route index={true} element={<Index />} />
-      <Route path="countries" element={<CountriesPage />} />
-      <Route path=":country" element={<CountryPage />} />
+      <Route path="/countries" element={<CountriesPage />} />
+      <Route path="/countries/:country" element={<CountryPage />} />
     </Route>
   )
 );
