@@ -39,7 +39,7 @@ export default function Countries({ query }) {
   }
 
   return (
-    <div className="relative mx-auto mt-8 grid max-w-screen-xl justify-center justify-items-center gap-10 px-[5%] xsm:px-[8%] md:grid-cols-[repeat(auto-fit,minmax(264px,1fr))] md:px-10 lg:mt-12 lg:gap-[clamp(3rem,5vw,4.5rem)] lg:px-0">
+    <div className="relative mx-auto mt-8 grid max-w-screen-xl grid-cols-1 justify-center justify-items-center gap-10 px-[5%] xsm:px-[8%] md:grid-cols-[repeat(auto-fit,minmax(264px,1fr))] md:px-10 lg:mt-12 lg:gap-[clamp(3rem,5vw,4.5rem)] lg:px-0">
       {isError ? (
         <Error error={isError} />
       ) : isLoading ? (
